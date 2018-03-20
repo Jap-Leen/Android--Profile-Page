@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradientbg"
+    tools:context="com.japkaur.profile.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="322dp"
+        android:layout_height="288dp"
+        app:srcCompat="@mipmap/profile"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_marginLeft="35dp"
+
+        android:gravity="center_horizontal"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="JAP LEEN KAUR"
+        android:textColor="@color/colorAccent"
+        android:textSize="41sp"
+
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_editor_absoluteY="304dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:gravity="center_horizontal"
+        android:text="18 year old undergraduate student, pursuing B.Tech in Computer Science and Engineering"
+        android:textColor="@color/colorAccent"
+        android:textSize="21sp"
+
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="364dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text=" FOLLOW"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="italic"
+        android:textSize="31sp"
+        android:gravity="center_vertical"
+        android:padding="9dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="115dp"
+
+        tools:layout_editor_absoluteY="411dp"
+        tools:layout_editor_absoluteX="112dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+
+
+        android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/github"
+        tools:layout_editor_absoluteX="16dp"
+        android:layout_marginLeft="30dp"
+        tools:layout_editor_absoluteY="483dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/linkedin"
+        android:layout_marginLeft="10dp"
+
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="483dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/facebook"
+        android:layout_marginLeft="10dp"
+
+        tools:layout_editor_absoluteX="202dp"
+        tools:layout_editor_absoluteY="483dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/twitter"
+        android:layout_marginLeft="10dp"
+
+        tools:layout_editor_absoluteX="296dp"
+        tools:layout_editor_absoluteY="483dp" />
+        </LinearLayout>
+
+
+
+
+</LinearLayout>
